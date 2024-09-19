@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         fontcolor: "var(--fontcolor)",
+        white: "#f4f6f9",
         "black-800": "#222222",
         "brown-800": "#33000F",
         "purple-200": "#DA99FF",

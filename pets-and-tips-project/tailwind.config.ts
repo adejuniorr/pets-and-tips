@@ -10,7 +10,13 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        fontcolor: "var(--fontcolor)",
+        "black-800": "#222222",
+        "brown-800": "#33000F",
+        "purple-200": "#DA99FF",
+        "purple-800": "#B02EF9",
+        "green-200": "#30FC8B",
+        "green-800": "#11AB56",
       },
     },
   },

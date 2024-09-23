@@ -6,8 +6,7 @@ import dog from "@/public/images/dog01.jpg";
 import { MdOutlineFileDownload, MdStar } from "react-icons/md";
 
 export const RandomDogsDrawer = () => {
-  const [randomDog, setRandomDog] = useState("");
-  const [blobUrl, setBlobUrl] = useState(""); // URL Blob para download das imagens
+  const [blobUrl, setBlobUrl] = useState<string>(dog.src); // URL Blob para download das imagens
 
   const fetchRandomDog = async () => {
     try {
@@ -20,7 +19,6 @@ export const RandomDogsDrawer = () => {
 
       const imageBlobUrl = URL.createObjectURL(imageBlob);
       setBlobUrl(imageBlobUrl);
-      setRandomDog(data.message.toString());
     } catch (error) {
       console.error("Error fetching random dog:\n" + error);
     }
@@ -30,7 +28,7 @@ export const RandomDogsDrawer = () => {
     <div className="bg-foreground w-[400px] h-[500px] rounded-[24px] shadow-xl overflow-hidden">
       <div className="h-[350px] overflow-hidden">
         <Image
-          src={randomDog || dog}
+          src={blobUrl}
           alt="é um doguinho"
           width={1000}
           height={1000}

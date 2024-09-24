@@ -1,6 +1,5 @@
 "use client";
 
-import { MdOutlineFileDownload, MdStar } from "react-icons/md";
 import { RandomCatsDrawer } from "./drawers/RandomCatsDrawer";
 import { RandomDogsDrawer } from "./drawers/RandomDogsDrawer";
 import { useState } from "react";

@@ -15,6 +15,7 @@ const config: Config = {
         "black-800": "#222222",
         "brown-800": "#33000F",
         "purple-200": "#DA99FF",
+        "purple-400": "#C766FF",
         "purple-800": "#B02EF9",
         "green-200": "#30FC8B",
         "green-800": "#11AB56",

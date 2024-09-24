@@ -19,7 +19,7 @@ export const IconButton = ({
       <a
         href={href}
         download={downloadFileName}
-        className={commonClasses + "text-[26px]"}
+        className={commonClasses + " text-[26px]"}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,5 +28,5 @@ export const IconButton = ({
     );
   }
 
-  return <button className={commonClasses + "text-[20px]"}>{icon}</button>;
+  return <button className={commonClasses + " text-[20px]"}>{icon}</button>;
 };

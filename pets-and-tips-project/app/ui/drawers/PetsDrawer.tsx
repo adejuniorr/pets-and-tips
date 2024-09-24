@@ -41,7 +41,7 @@ export const PetsDrawer = ({
   };
 
   return (
-    <div className="bg-foreground w-[400px] h-[500px] rounded-[24px] shadow-xl overflow-hidden">
+    <div className="bg-foreground sm:w-[400px] w-[300px] h-[500px] rounded-[24px] shadow-xl overflow-hidden flex flex-col">
       <div className="h-[350px] overflow-hidden bg-purple-800 flex items-center justify-center">
         {isLoadingImg ? (
           <Image
@@ -62,7 +62,7 @@ export const PetsDrawer = ({
           />
         )}
       </div>
-      <div className="relative bottom-[80px] left-[100px] bg-white w-[200px] h-[0px]">
+      <div className="relative bottom-[80px] bg-white h-0">
         <span className="flex items-center justify-center gap-8">
           <IconButton
             icon={<MdOutlineFileDownload />}
@@ -73,7 +73,7 @@ export const PetsDrawer = ({
           <IconButton icon={<MdStar />} />
         </span>
       </div>
-      <div className="bg-green-200 px-16 h-[150px] flex flex-col gap-4 items-center justify-center">
+      <div className="bg-green-200 px-16 py-2 sm:h-[150px] h-[180px] flex flex-col gap-4 items-center justify-center">
         <p className="text-center">
           Clique no botão abaixo para sortear um pet aleatório! =)
         </p>

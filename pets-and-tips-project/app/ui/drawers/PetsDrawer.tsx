@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { MdOutlineFileDownload, MdStar } from "react-icons/md";
 import { PrimaryButton } from "../PrimaryButton";
+import { IconButton } from "../IconButton";
 
 interface PetsDrawerProps {
   initialImage: string;
@@ -63,17 +64,13 @@ export const PetsDrawer = ({
       </div>
       <div className="relative bottom-[80px] left-[100px] bg-white w-[200px] h-[0px]">
         <span className="flex items-center justify-center gap-8">
-          <a
-            about="_blank"
+          <IconButton
+            icon={<MdOutlineFileDownload />}
+            isDownloadLink
             href={imgUrl}
-            download={downloadFileName}
-            className="cursor-pointer rounded-[100%] bg-green-200 shadow-lg text-purple-800 text-[26px] w-[50px] h-[50px] flex items-center justify-center"
-          >
-            <MdOutlineFileDownload />
-          </a>
-          <button className="rounded-[100%] bg-green-200 shadow-lg text-purple-800 text-[20px] w-[50px] h-[50px] flex items-center justify-center">
-            <MdStar />
-          </button>
+            downloadFileName={downloadFileName}
+          />
+          <IconButton icon={<MdStar />} />
         </span>
       </div>
       <div className="bg-green-200 px-16 h-[150px] flex flex-col gap-4 items-center justify-center">

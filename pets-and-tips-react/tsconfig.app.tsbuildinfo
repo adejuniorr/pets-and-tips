@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/iconbutton.tsx","./src/components/primarybutton.tsx","./src/components/selectpetdrawer.tsx","./src/components/drawers/petsdrawer.tsx","./src/components/drawers/randomcatsdrawer.tsx","./src/components/drawers/randomdogsdrawer.tsx","./src/components/login/login.tsx"],"version":"5.6.2"}

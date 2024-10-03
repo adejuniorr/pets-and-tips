@@ -22,7 +22,7 @@ A versão em **React**, por sua vez, é idêntica à versão inicial. Foi feita 
 - Abra o terminal (`Ctrl + j`) e execute:
   
   ```
-  cd pets-and-tips-project`
+  cd .\pets-and-tips-project\`
   npm install
   npm run dev
   ```
@@ -30,7 +30,7 @@ A versão em **React**, por sua vez, é idêntica à versão inicial. Foi feita 
   ou
 
   ```
-  cd pets-and-tips-react`
+  cd .\pets-and-tips-react\`
   npm install
   npm run dev
   ```

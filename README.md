@@ -1,4 +1,4 @@
-# Pets&Tips
+# Pets&Tips (pt-br)
 
 🚨🚧🚧🚧🚨
 
@@ -19,10 +19,21 @@ A versão em **React**, por sua vez, é idêntica à versão inicial. Foi feita 
 ## Como rodar a aplicação 🧑‍💻
 
 - Faça o clone do repositório e abra a pasta no `VS Code`
-- Abra o terminal (`Ctrl + j`)
-- Digite `cd pets-and-tips-project` + `Enter` ou `cd pets-and-tips-react` + `Enter`
-- Digite `npm install` + `Enter`
-- Em seguida digite `npm run dev` + `Enter`
+- Abra o terminal (`Ctrl + j`) e execute:
+  
+  ```
+  cd pets-and-tips-project`
+  npm install
+  npm run dev
+  ```
+
+  ou
+
+  ```
+  cd pets-and-tips-react`
+  npm install
+  npm run dev
+  ```
 
 A aplicação irá roda no localhost mostrado no terminal. Segure `Ctrl` e clique no link para abrir atuomaticamente no navegador.
 
